@@ -1,0 +1,45 @@
+body { 
+  text-align: center;
+  background: url('images/body-bg.jpg') no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+} 
+
+#page-wrap {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#cr {
+	font-size: 14px;
+	color: #5B5B53;
+}
+
+h1{
+  font-size: 44px;
+}
+
+.centered {
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  background: rgba(238,238,238, 0.8);
+  border: 1px solid #bbbbbb;
+    
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
